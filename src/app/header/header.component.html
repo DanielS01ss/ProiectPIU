@@ -1,0 +1,28 @@
+<nav>
+    <a class="nav-title gradient-text">NEXT</a>
+<div class="nav-list-container">
+    <ul class="nav-list">
+        <li class="nav-list-item"><a class="hover-underline-animation" routerLink="/">Home</a></li>
+        <li class="nav-list-item"><a class="hover-underline-animation"href="/">Tech</a></li>
+        <li class="nav-list-item"><a class="hover-underline-animation" href="/">Products</a></li>
+    </ul>
+    <div class="wrapper">
+        <button class="sign-btn"><span>sign up</span></button>
+    </div>
+   
+</div>
+<div [className]= "isToggled? 'active hamburger-icon':'hamburger-icon'" (click)="handleToggle()">
+    <div [className]="isToggled? 'hamburger-line bar1 change1': 'hamburger-line bar1'" ></div>
+    <div  [className]="isToggled? 'hamburger-line bar2 change2': 'hamburger-line bar2'" ></div>
+    <div  [className]="isToggled? 'hamburger-line bar3 change3': 'hamburger-line bar3'"></div>
+</div>
+
+    <div [className]="isToggled? 'small-nav active': 'small-nav' ">
+        <ul>
+            <li class="small-nav-item"><a>Home</a></li>
+            <li class="small-nav-item"><a>Tech</a></li>
+            <li class="small-nav-item"><a>Products</a></li>
+            <li class="small-nav-item"><a>sign up</a></li>
+        </ul>
+    </div>
+</nav>

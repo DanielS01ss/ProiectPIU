@@ -1,0 +1,8 @@
+<div class="main-inventory">
+    <p class="inventory-title">All items</p>
+    <button class="add-btn" (click)="handleClick()">Add item +</button>
+<div  class="cards-container">
+    <app-card *ngFor="let item of allItems" [item]="item"></app-card>
+</div>
+</div>
+

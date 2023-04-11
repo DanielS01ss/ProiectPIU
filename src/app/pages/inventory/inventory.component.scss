@@ -1,0 +1,38 @@
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.inventory-title{
+    padding-top:20px;
+    color:#fff;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.add-btn{
+    border: none;
+    padding:10px;
+    color:#000;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.0rem;
+    background-color: #FFA500;
+    margin-left:20px;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -1px -1px 14px -1px rgba(255,255,0,1);
+-moz-box-shadow: -1px -1px 14px -1px rgba(255,255,0,1);
+box-shadow: -1px -1px 14px -1px rgba(255,255,0,1);
+}
+
+.main-inventory{
+    height: 100vh;
+    
+    background-image: url("../../../assets/inventory.jpg");
+}

@@ -1,0 +1,61 @@
+.item-card{
+    border-radius: 10px;
+    margin-left: 20px;
+    padding:20px;
+    -webkit-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.31);
+    box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.31);
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    margin-top:20px;
+}
+
+.card-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.description-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.card-btn{
+    border: none;
+    padding:10px;
+    color:#fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.delete-btn:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 12px -2px rgba(252,91,91,1);
+    -moz-box-shadow: 0px 1px 12px -2px rgba(252,91,91,1);
+    box-shadow: 0px 1px 12px -2px rgba(252,91,91,1);
+}
+
+.edit-btn{
+    background-color: blue;
+}
+
+.edit-btn:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 12px -2px rgba(142,76,255,1);
+-moz-box-shadow: 0px 1px 12px -2px rgba(142,76,255,1);
+box-shadow: 0px 1px 12px -2px rgba(142,76,255,1);
+}
